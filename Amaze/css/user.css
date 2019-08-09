@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+#user_box{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 5px;
+    color: #838FA1;
+}
+#artist_table tr td img {
+	height: 40px;
+	width: 40px;
+	border-radius: 400px;
+	margin: -10px 0px;
+}
+#btn_item_box .row{
+	margin-left: 0;
+}
+#search_box {
+	float: right;
+	margin-right: 20px;
+	width: 250px;
+}
+#select_list {
+	width: 100px;
+	float: right;
+	margin-right: 20px;
+}
+
+#artist_table {
+	margin-top: 10px;
+	color: #838FA1;
+	width: 100%;
+	border: 1px solid #EEEEEE;
+}
+
+#artist_table tr th,
+#artist_table tr td {
+	line-height: 30px;
+}
+
+#artist_table tr td button {
+	height: 30px;
+	width: 75px;
+	margin-right: 1%;
+	padding: 0 1%;
+}
+
+#artist_tbody tr:hover {
+	background-color: #EEEEEE;
+}
+
+#page_list {
+	float: right;
+	margin-top: -30px;
+}
+
+.pagination>li>span {
+	background-color: #FFFFFF;
+}
+
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+	cursor: pointer;
+	background-color: #EEEEEE;
+}
+
+
+/*不允许点击的*/
+
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+	background-color: #FFFFFF;
+}
+
+
+/*选中的*/
+
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+	cursor: pointer;
+	color: #838FA1;
+	background-color: #EEEEEE;
+	border: 1px solid #cfcfcf;
+}
+#auth_info,
+#myModalLabel_info{
+	text-align: center;
+	font-size: 20px;
+}

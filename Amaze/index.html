@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>Mrz--首页</title>
+
+		<!-- Bootstrap -->
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./css/common.css" />
+		<link rel="stylesheet" type="text/css" href="./css/index.css" />
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<header>
+			<!-- logo -->
+			<div id="logo_box">
+				<a href="index.html"><img src="./img/logo.png" /></a>
+			</div>
+			<!-- 右侧内容 -->
+			<div id="top_nav">
+				<!-- 侧边切换 -->
+				<div id="top_nav_btn">
+					<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+				</div>
+				<!-- 搜索 -->
+				<div id="top_nav_search">
+					<div class="input-group">
+					  <span class="input-group-addon glyphicon glyphicon-search" aria-hidden="true" id="basic-addon1"></span>
+					  <input type="text" class="form-control" placeholder="搜索内容..." aria-describedby="basic-addon1">
+					</div>
+				</div>
+				<!-- 其它功能-->
+				<div id="top_right_nav">
+					<a href="javascipt:;">欢迎你,<span class="username"></span></a>
+					<a href="javascipt:;" id="logout"><span class="glyphicon glyphicon-log-out"aria-hidden="true"></span>退出</a>
+				</div>
+			</div>
+		</header>
+		<div class="mybody">
+			<!-- 侧边导航栏 -->
+			<div id="left_nav">
+				<!-- 用户信息 -->
+				<div id="left_nav_top_box">
+					<div class="left_nav_top_content">
+	                    <div class="left_nav_top_content_headimg">
+	                        <img src="./img/user04.png" alt="">
+	                    </div>
+	                    <span class="left_nav_top_content_name">
+	                    	<span class="glyphicon glyphicon-record" aria-hidden="true"></span>
+			             	 管理<span class="username">小张</span>
+			            </span>
+	                    <a href="javascript:;" class="left_nav_top_content_set"> <span class="glyphicon glyphicon-pencil"></span> 账号设置</a>
+	                </div>
+				</div>
+				<ul class="nav nav-pills nav-stacked" id="left_nav_ul">
+					<li role="presentation" class="active">
+						<a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;&nbsp;首页</a>
+					</li>
+					<li role="presentation">
+						<a href="user.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;用户列表</a>
+					</li>
+					<li role="presentation">
+						<a href="finance.html"><span class="glyphicon glyphicon-jpy" aria-hidden="true"></span>&nbsp;&nbsp;财务管理</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content">
+				<div id="index_box">
+					<div id="index_info">
+						<div id="" class="index_info_div">
+							<div class="index_info_left">
+								<p>
+									<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+									<br />平台总收入
+								</p>
+							</div>
+							<div class="index_info_right">
+								4567.89元
+							</div>
+						</div>
+						<div id="" class="index_info_div">
+							<div class="index_info_left">
+								<p>
+									<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+									<br />平台总支出
+								</p>
+							</div>
+							<div class="index_info_right">
+								1234.56元
+							</div>
+						</div>
+						<div id="" class="index_info_div">
+							<div class="index_info_left">
+								<p>
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+									<br />待处理
+								</p>
+							</div>
+							<div class="index_info_right">
+								1234条
+							</div>
+						</div>
+						<div id="" class="index_info_div">
+							<div class="index_info_left">
+								<p>
+									<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+									<br />消息
+								</p>
+							</div>
+							<div class="index_info_right">
+								4567条
+							</div>
+						</div>
+					</div>
+					<div id="index_mid_bg"></div>
+					<div id="distribution">
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="./js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="./js/echarts.js" ></script>
+		<script type="text/javascript" src="./js/china.js" ></script>
+		<script type="text/javascript" src="./js/common.js" ></script>
+		<script type="text/javascript" src="./js/index.js" ></script>
+		<script>
+		</script>
+	</body>
+
+</html>

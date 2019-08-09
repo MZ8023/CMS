@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{
+	background-color: #EEEEEE;
+}
+#login_logo{
+	text-align: center;
+	margin-top: 10%;
+}
+#login_logo img{
+	width: 150px;
+	/*height: 120px;*/
+}
+#account_error{
+	font-size: 14px;
+	color: red;
+}
+#account_box{
+	width: 400px;
+	margin-left: 30%;
+	margin-top: 20px;
+}
+#login_btn{
+	width: 330px;
+}
